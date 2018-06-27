@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+//Влад сосатб
 namespace Practic4.Controllers
 {
     public class HomeController : Controller
@@ -16,7 +17,7 @@ namespace Practic4.Controllers
         {
             int a = Int32.Parse(Request.Params["a"]);
             int b = Int32.Parse(Request.Params["b"]);
-            return "A + B = " + (a + b).ToString() + ".";
+            return "A + B = " + (a + b).ToString() + ". ";
         }
 
         [HttpGet]
